@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "affiliate_db";
+$servername = "db4free.net";
+$username = "affiliateadmin";
+$password = "Dojjie#112022";
+$dbname = "affiliatesite";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
