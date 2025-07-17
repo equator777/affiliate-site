@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: affiliate-site
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    buildFilter:
+      paths:
+        - ./*
